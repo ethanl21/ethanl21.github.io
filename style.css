@@ -1,0 +1,94 @@
+html {
+  font-family: "Comic Neue", sans-serif;
+  background-image: url("assets/lavender-glitter.gif");
+}
+
+body {
+  cursor: url("assets/watermelon_cursor_kiunlo.png"), auto;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5em;
+  padding-top: 2em;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-grow: 1;
+  padding: 2em 0;
+}
+
+#skull-btn {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.square {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#animated-img {
+  width: 50%;
+  align-self: center;
+}
+
+#img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#notebook-link {
+  font-size: 5em;
+  text-align: center;
+}
+
+#hypercam-watermark {
+  image-rendering: pixelated;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 5px solid black;
+  width: 25%;
+}
